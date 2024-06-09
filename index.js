@@ -2,7 +2,7 @@ const bot = require(__dirname + '/lib/astro');
 const { VERSION } = require(__dirname + '/config');
 
 const start = async () => {
-    Debug.info(`Asta ${VERSION}`);
+    Debug.info(`Taifur ${VERSION}`);
     try {
         await bot.init();
         bot.logger.info('ꜱᴛᴀʀᴛɪɴɢ ᴀᴘᴘ');
@@ -15,4 +15,4 @@ const start = async () => {
 };
 start();
 
-//ASTA
+//Taifur
